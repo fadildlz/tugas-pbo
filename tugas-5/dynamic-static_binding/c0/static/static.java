@@ -1,20 +1,18 @@
 class Human{
-    //Overridden Method
-    public void walk()
+    public static void walk()
     {
         System.out.println("Human walks");
     }
  }
- class Demo extends Human{
-    //Overriding Method
-    public void walk(){
+ class Boy extends Human{
+    public static void walk(){
         System.out.println("Boy walks");
     }
     public static void main( String args[]) {
         /* Reference is of Human type and object is
          * Boy type
          */
-        Human obj = new Demo();
+        Human obj = new Boy();
         /* Reference is of HUman type and object is
          * of Human type.
          */
