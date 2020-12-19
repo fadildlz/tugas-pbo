@@ -4,6 +4,8 @@ class Human{
         System.out.println("Human walks");
     }
  }
+
+ // note static method
  class Boy extends Human{
     public static void walk(){
         System.out.println("Boy walks");

@@ -9,5 +9,4 @@ public class Main{
         hero2.name = "Mountain Lady";
         hero2.defencePower = 100;
         hero2.display();
-    }
 }
